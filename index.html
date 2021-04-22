@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS and js website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+    <!-- header -->
+
+    <section id="header">
+        <div class="container">
+            <img class="logo" src="/logo.png" alt="logo">
+            <div class="header-text">
+                <h1>The purpose is to<br> teach, bring learing to people</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, alias dolores ea commodi culpa saepe incidunt deleniti doloremque!
+                    Deserunt temporibus eum vitae ipsum nemo fugiat, inventore aliquam vel consequuntur quas!
+                </p>
+                <button class="common-btn">Read More</button>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#courses">COURES</a></li>
+            <li><a href="#offer">OFFER</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+
+        </ul>
+    </nav>
+
+    <img id="menuBtn" src="/menu.png" alt="menu" onclick="fun();">
+
+
+    <!-- about -->
+    <section id="about">
+        <div class="about-left-col">
+            <img src="/about.png" alt="about">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab placeat, veritatis aperiam odit suscipit ratione esse distinctio at dolor 
+                    et mollitia quidem aspernatur voluptates accusamus consequuntur quod eum excepturi molestiae?
+                </p><br><br>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, corporis! Quibusdam nobis natus incidunt unde, consectetur perspiciatis
+                     corrupti, facere dolorum quod alias, sequi ex? Inventore impedit quibusdam ea tempore facere!
+                </h2>
+                <h3>---Kalisetti Dileep</h3>
+            </div>
+        </div>
+    </section>
+
+    
+     
+    <!-- Features -->
+    <section id="features">
+        <div class="feature-row">
+            <div class="feature-col">
+                <img src="/pic-1.png" alt="pic1">
+                <h4>Learn Anyware</h4>
+                <p>Switch between your computer, tablet or mobile device</p>
+            </div>
+            <div class="feature-col">
+                <img src="/pic-2.png" alt="pic2">
+                <h4>Expert Teachers</h4>
+                <p>Switch between your computer, tablet or mobile device</p>
+            </div>
+            <div class="feature-col">
+                <img src="/pic-3.png" alt="pic3">
+                <h4>Unlimited Access</h4>
+                <p>Switch between your computer, tablet or mobile device</p>
+            </div>
+        </div>
+        <div class="feature-btn">
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+            <button class="common-btn">Start Free Trail</button>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- courses -->
+    <section id="courses">
+        <div class="container course-row">
+            <div class="course-left-col">
+                <div class="course-text">
+                    <h1>Browse Our Top<br>Courses</h1>
+                    <span class="square"></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptatibus eius ut numquam accusantium ratione enim. Necessitatibus
+                         ad ducimus nam ratione eligendi tempore modi? Laborum quibusdam fuga dolorum non quaerat.
+                    </p>
+                    <button class="common-btn">Start Free Trail</button>
+                    <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="course-right-col">
+                <img src="/course.png" alt="course">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Offer -->
+    <section id="offer">
+        <div class="about-left-col">
+            <img src="/offer.png" alt="about">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>Limitless Learning,<br>limitless possibilities</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab placeat, veritatis aperiam odit suscipit ratione esse distinctio at dolor 
+                
+                </p>
+                <button class="common-btn">Start Free Trail</button>
+                
+
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container contact-row">
+            <div class="contact-left-col">
+                <h1>Sign Up to join our<br>learning community</h1>
+                <form>
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <input type="password" placeholder="Enter Password">
+                    <div class="btn-box">
+                        <button class="common-btn">Sign Up</button>
+                        <button class="common-btn">Start Free Trail</button>
+
+                    </div>
+                </form>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+                
+            </div>
+            <div class="contact-right-col">
+                <img src="/contact.png" alt="contact">
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- footer -->
+    <section id="footer">
+        <div class="container footer-row">
+            <hr>
+            <div class="footer-left-col">
+                <div class="footer-links">
+                    <div class="link-title">
+                        <h4>Product</h4>
+                        <small>Out Plan</small><br>
+                        <small>Free Trail</small>
+                    </div>
+                    <div class="link-title">
+                        <h4>About Us</h4>
+                        <small>Request Demo</small><br>
+                        <small>FAQS</small>
+                    </div>
+                    <div class="link-title">
+                        <h4>Support</h4>
+                        <small>Features</small><br>
+                        <small>Contact</small>
+                    </div>
+                    <div class="link-title">
+                        <h4>Explore</h4>
+                        <small>Find a nonprofit</small><br>
+                        <small>Coporate Solution</small>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right-col">
+                <div class="footer-info">
+                    <div class="Copyright-text">
+                        <small>www.dileep.com999@gmail.com</small><br>
+                        <small>Copyright 2021 Xypo</small>
+
+                    </div>
+                    <div class="footer-logo">
+                        <img src="/logo.png" alt="logo1">
+                        <button class="common-btn">English</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Social-icons -->
+    <div class="social-icons">
+        <img src="/facebook.png" alt="facebook">
+        <img src="/instagram.png" alt="instagram">
+        <img src="/twitter.png" alt="twitter">
+        <img src="/linkedin.png" alt="linkedin">
+    </div>
+
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    <script type="text/javascript" src="script.js">
+    
+    </script>
+    
+</body>
+</html>
